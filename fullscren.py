@@ -16,7 +16,7 @@ print("(2) kali Linux x86")
 print("(3) Ubunto x64")
 print("""(3) Ubunto x86
 	""")
-dist = raw_imput("#: ")
+dist = raw_input("#: ")
 
 if dist == 1:
 	print("Instalando dependencias...")
