@@ -1,5 +1,6 @@
 import os
 import sys
+import time
 
 print("""
 
@@ -28,7 +29,7 @@ elif dist == 2:
 	os.system("apt-get install linux-headers-4.19.0-kali5-all")
 	os.system("apt-get install linux-image-cloud-amd64")
 	os.system("chmod 777 vbox.run && ./vbox.run")
-
+os.system("clear")
 print("Reinicie o Computador 2 Vezes")
-
+time.sleep(7)
 os.system("reboot now")
