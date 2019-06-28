@@ -2,7 +2,7 @@ import os
 import sys
 import time
 
-print("""
+print("""by SedSec
 
 
 	""")
